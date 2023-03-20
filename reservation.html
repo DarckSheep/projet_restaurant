@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr"><head><link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="../script/script.js"></script>
+    <script src="../script/reservationScript.js"></script>
+    
+    
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="../assets/images/icon_restaurant.png" type="image/x-icon">
+        <link rel="stylesheet" href="..\Le Quai Antique\style.css">
+        <title>Le Quai Antique</title>
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.1101.0" data-gr-ext-installed="" cz-shortcut-listen="true"><header>
+        <nav class="navMenuMobile" role="navigation">
+    
+            <div class="menuToggleMobile">
+    
+                <input type="checkbox" class="burger">
+    
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="menuMobile">
+                    <a href="/reservation"><li>Réserver</li></a>
+                    <a href="/la-carte"><li>La Carte</li></a>
+                                        <a href="/inscription"><li>S'inscrire</li></a>
+                        <a href="/connexion"><li>Se connecter</li></a>
+                        
+                </ul>
+            </div>
+            <div class="itemsNavMobile">
+                <a class="navItemLogoMobile" href="/"><img class="navItemLogo" src="../assets/images/lequaiantiquelogo.png"></a>
+            </div>
+        </nav>
+        <nav class="navMenu">
+            <a class="navItem" href="/la-carte">La Carte</a>
+            <a class="navItemLogo" href="/"><img class="navItemLogo" src="../assets/images/lequaiantiquelogo.png"></a>
+            <a class="navItem" href="/reservation">Réserver</a>
+                        <div>
+                    <a class="navItem Connect" href="/inscription">S'inscrire</a>
+                    <a class="navItem Connect" href="/connexion">Se Connecter</a>
+                </div>
+                </nav>
+    </header>
+    
+        <div class="imgContainer">
+            <img src="../assets/images/background.jpg">
+        </div>
+        <div class="contentContainer">
+            <h1 class="titleContent">Réserver votre table</h1>
+                <p class="successMessage"></p>
+        <form class="form" id="form" action="" method="post" abineguid="C48CBA0E2BD242209FCA3B7A8A8E8104">
+            <div class="formGroup">
+                <label class="formLabel" for="lastName">Nom</label>
+            </div>
+            <div class="formGroup">
+                <input type="text" name="lastName" id="lastName" class="formInput" placeholder="Nom" required="required">
+            </div>
+            <div class="formGroup">
+                <label class="formLabel" for="firstName">Prénom</label>
+            </div>
+            <div class="formGroup">
+                <input type="text" name="firstName" id="firstName" class="formInput" placeholder="Prénom" required="required">
+            </div>
+            <div class="formGroup">
+                <label class="formLabel" for="email">Email</label>
+            </div>
+            <div class="formGroup">
+                <input type="email" name="email" id="email" class="formInput" placeholder="Email" required="required">
+            <div id="pwm-inline-icon-13572" class="pwm-field-icon" style="position: absolute !important; width: 18px !important; height: 18px !important; min-height: 0px !important; min-width: 0px !important; z-index: 2147483645 !important; box-shadow: none !important; box-sizing: content-box !important; background: none !important; border: none !important; padding: 0px !important; cursor: pointer !important; outline: none !important; margin-top: -39px; margin-left: 510.797px;"><svg style="display: inline-block !important; width: 16px !important; height: 16px !important; fill: rgb(126, 147, 167) !important; margin-top: 0.5px !important; position: absolute !important; top: 0px !important; left: 0px !important;" viewBox="0 0 40 64"><g><path d="m20,28.12a33.78,33.78 0 0 1 13.36,2.74a22.18,22.18 0 0 1 0.64,5.32c0,9.43 -5.66,17.81 -14,20.94c-8.34,-3.13 -14,-11.51 -14,-20.94a22.2,22.2 0 0 1 0.64,-5.32a33.78,33.78 0 0 1 13.36,-2.74m0,-28.12c-8.82,0 -14,7.36 -14,16.41l0,5.16c2,-1.2 2,-1.49 5,-2.08l0,-3.08c0,-6.21 2.9,-11.41 8.81,-11.41l0.19,0c6.6,0 9,4.77 9,11.41l0,3.08c3,0.58 3,0.88 5,2.08l0,-5.16c0,-9 -5.18,-16.41 -14,-16.41l0,0zm0,22c-6.39,0 -12.77,0.67 -18.47,4a31.6,31.6 0 0 0 -1.53,9.74c0,13.64 8.52,25 20,28.26c11.48,-3.27 20,-14.63 20,-28.26a31.66,31.66 0 0 0 -1.54,-9.77c-5.69,-3.3 -12.08,-4 -18.47,-4l0,0l0.01,0.03z"></path><path d="m21.23,39.5a2.81,2.81 0 0 0 1.77,-2.59a2.94,2.94 0 0 0 -3,-2.93a3,3 0 0 0 -3,3a2.66,2.66 0 0 0 1.77,2.48l-1.77,4.54l6,0l-1.77,-4.5z"></path></g></svg></div></div>
+            <div class="formGroup">
+                <label class="formLabel" for="phone">Téléphone</label>
+            </div>
+            <div class="formGroup">
+                <input type="phone" name="phone" id="phone" class="formInput" placeholder="Téléphone" required="required">
+            </div>
+            <div class="formGroup">
+            <label class="formLabel" for="allergy">Référencez vos allergies allimentaires (Facultatif)</label>
+            </div>
+            <div class="formGroup">
+            <textarea type="text" name="allergy" id="allergy" class="formInput" placeholder="Exemple: Arrachide, gluten"></textarea>
+            </div>
+            <div class="formGroup">
+            <label class="formLabel" for="numberPlace">Nombre de couverts</label>
+            </div>
+            <div class="formGroup">
+                <select class="formInput" name="numberPlace" id="numberPlace-select">
+                    <option value="">Selectionner le nombre de couverts</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="formGroup">
+            <label class="formLabel" for="date">Date</label>
+            </div>
+            <div class="formGroup">
+                <input class="formInput hasDatepicker" type="text" id="datepicker" name="dateReservation" value="">
+            </div>
+            <div class="formGroup">
+                <p class="errorMessage" id="infoReservation" style="display: none;">Aucune réservations possible le lundi et le mardi</p>
+                <div class="reservationCheck" id="reservationCheck" style="display: none;">
+                    <div class="btnSelectLunch" id="lunch">
+                        Midi
+                    </div>
+                    <div class="selectContentLunch" id="select-container-lun" style="display: none;">
+                        <div id="radiolunchSun">
+                            <label for="radio-29" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">11h00</label>
+                            <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-29" value="11:00">
+                            <label for="radio-30" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">11h15</label>
+                            <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-30" value="11:15">
+                            <label for="radio-31" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">11h30</label>
+                            <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" nam21e="hours" id="radio-31" value="11:30">
+                            <label for="radio-32" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">11h45</label>
+                            <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-32" value="11:45">
+                        </div>
+                        <label for="radio-15" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">12h00</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-15" value="12:00">
+                        <label for="radio-16" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">12h15</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-16" value="12:15">
+                        <label for="radio-17" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">12h30</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-17" value="12:30">
+                        <label for="radio-18" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">12h45</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-18" value="12:45">
+                        <label for="radio-19" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">13h00</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-19" value="13:00">
+                        <label for="radio-20" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">13h15</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-20" value="13:15">
+                        <label for="radio-21" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">13h30</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-21" value="13:30">
+                        <div id="radiolunchSun">
+                            <label for="radio-25" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">13h45</label>
+                            <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-25" value="13:45">
+                            <label for="radio-26" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">14h00</label>
+                            <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-26" value="14:00">
+                        </div>
+                    </div>
+                    
+                    <div class="btnSelectDiner" id="diner">
+                        Soir
+                    </div>
+                    <div class="selectContentDiner" id="select-container-din" style="display: none;">
+                        <label for="radio-1" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">18h30</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-1" value="18:30">
+                        <label for="radio-2" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">18h45</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-2" value="18:45">
+                        <label for="radio-3" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">19h00</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-3" value="19:00">
+                        <label for="radio-4" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">19h15</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-4" value="19:15">
+                        <label for="radio-5" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">19h30</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-5" value="19:30">
+                        <label for="radio-6" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">19h45</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-6" value="19:45">
+                        <label for="radio-7" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">19h45</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-7" value="19:45">
+                        <label for="radio-8" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">20h00</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-8" value="20:00">
+                        <label for="radio-9" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">20h15</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-9" value="20:15">
+                        <label for="radio-10" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">20h30</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-10" value="20:30">
+                        <label for="radio-11" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">20h45</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-11" value="20:45">
+                        <label for="radio-12" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">21h00</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-12" value="21:00">
+                        <label for="radio-13" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">21h15</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-13" value="21:15">
+                        <label for="radio-14" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">21h30</label>
+                        <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-14" value="21:30">
+                        <div id="radiodinSat" style="display: none;">
+                            <label for="radio-27" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">21h45</label>
+                            <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" nam21e="hours" id="radio-27" value="21:45">
+                            <label for="radio-28" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget ui-checkboxradio-radio-label">22h00</label>
+                            <input class="select ui-checkboxradio ui-helper-hidden-accessible" type="radio" name="hours" id="radio-28" value="22:00">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="formGroup">
+                <button type="submit" class="formBtn">Réserver</button>
+            </div>
+        </form>
+            </div>
+    
+    <footer>
+        <div class="containerHour">
+            <h3 class="titleHour">Nos horraires d'ouvertures</h3>
+            <table class="horraires">
+                <tbody><tr>
+                    <th class="thHour">Jours d'ouvertures</th>
+                    <th class="thHour">Midi</th>
+                    <th class="thHour">Soir</th>
+                </tr>
+                            <tr>
+                    <td class="tdHour">Mercredi</td>
+                    <td class="tdHour">12:00 à 14:30</td>
+                    <td class="tdHour">18:30 à 22:30</td> 
+                </tr>
+                            <tr>
+                    <td class="tdHour">Jeudi</td>
+                    <td class="tdHour">12:00 à 14:30</td>
+                    <td class="tdHour">18:30 à 22:30</td> 
+                </tr>
+                            <tr>
+                    <td class="tdHour">Vendredi</td>
+                    <td class="tdHour">12:00 à 14:30</td>
+                    <td class="tdHour">18:30 à 22:30</td> 
+                </tr>
+                            <tr>
+                    <td class="tdHour">Samedi</td>
+                    <td class="tdHour">12:00 à 14:30</td>
+                    <td class="tdHour">18:30 à 23:00</td> 
+                </tr>
+                            <tr>
+                    <td class="tdHour">Dimanche</td>
+                    <td class="tdHour">11:00 à 15:00</td>
+                    <td class="tdHour">18:30 à 22:30</td> 
+                </tr>
+                </tbody></table>
+                <p class="legalmentions">Restaurant le Quai Antique &copy;</p>
+        </div>
+    </footer>
+    <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
+
+    </div>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+<div class="abineContentPanel" style="background-color:transparent !important;margin:0 !important;padding:0 !important;display:none !important;opacity:1 !important;filter:alpha(opacity:100) !important;z-index:2147483647 !important;position:absolute !important;top:20px !important;right:20px !important;overflow:hidden !important;border-width:0px !important;visibility:visible !important;background:transparent"><iframe class="abineContentFrame" width="310px" allowtransparency="true" frameborder="0" height="0px" scrolling="no" src="chrome-extension://caljgklbbfbcjjanaijlacgncafpegll/html/inlineForm.html?abine98695468doNotRemove" id="abine98695468doNotRemove" position="undefined" style="display:block !important;position:relative !important;background:transparent !important;border-width:0px !important;left:0px !important;top:0px !important;visibility:visible !important;opacity:1 !important;filter:alpha(opacity:100) !important;margin:0 !important;padding:0 !important;height:0px !important;width:310px"></iframe></div>
